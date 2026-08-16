@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, filters, ContextTypes
 
 # BotFather থেকে পাওয়া আপনার টোকেনটি এখানে কোটেশনের ভেতর বসান
-BOT_TOKEN = "8800197472:AAFtHyhNhVKuYR08pNG4wi1XGu2MMYDMc3I"
+BOT_TOKEN = "u2MMYDMc3I"
 
 # কেউ বটের ভেতর /start দিলে এই মেসেজটি যাবে
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
